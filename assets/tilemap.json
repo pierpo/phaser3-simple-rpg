@@ -117,8 +117,41 @@
          "visible":true,
          "x":0,
          "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "name":"zones",
+         "objects":[
+                {
+                 "height":44.6713,
+                 "id":11,
+                 "name":"",
+                 "properties":
+                    {
+                     "comesBackFrom":"right",
+                     "scene":"Second",
+                     "type":"CHANGE_SCENE"
+                    },
+                 "propertytypes":
+                    {
+                     "comesBackFrom":"string",
+                     "scene":"string",
+                     "type":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":13.5609,
+                 "x":355.775,
+                 "y":408.424
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
         }],
- "nextobjectid":11,
+ "nextobjectid":13,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.1.5",
