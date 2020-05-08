@@ -20,7 +20,7 @@ interface InterSceneData {
 
 export abstract class AbstractScene extends Phaser.Scene {
   public player: Player;
-  public cursors: CursorKeys;
+  public cursors: Phaser.Types.Input.Keyboard.CursorKeys;
   public npcs: Npc[];
   public monsters: Monster[];
   public map: Phaser.Tilemaps.Tilemap;
