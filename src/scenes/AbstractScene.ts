@@ -114,7 +114,7 @@ export abstract class AbstractScene extends Phaser.Scene {
 
   private createMapWithLayers() {
     this.map = this.make.tilemap({ key: this.mapKey });
-    const tileset = this.map.addTilesetImage(ASSETS.TILESET, ASSETS.IMAGES.TILES, 16, 16, 0, 0);
+    const tileset = this.map.addTilesetImage(ASSETS.TILESET, ASSETS.IMAGES.TILES, 16, 16, 1, 2);
 
     this.layers = {
       terrain: this.map.createStaticLayer(MAP_CONTENT_KEYS.layers.BACKGROUND, tileset, 0, 0),

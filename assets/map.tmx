@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="40" height="40" tilewidth="16" tileheight="16" infinite="0" nextobjectid="16">
- <tileset firstgid="1" name="tileset" tilewidth="16" tileheight="16" tilecount="1088" columns="34">
-  <image source="environment/tileset.png" width="544" height="512"/>
+<map version="1.2" tiledversion="1.3.4" orientation="orthogonal" renderorder="right-down" width="40" height="40" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="16">
+ <tileset firstgid="1" name="tileset" tilewidth="16" tileheight="16" spacing="2" margin="1" tilecount="1368" columns="34">
+  <image source="environment/tileset.png" width="612" height="576"/>
   <terraintypes>
    <terrain name="water" tile="123"/>
    <terrain name="mountain" tile="83"/>
@@ -5449,7 +5449,7 @@
    </properties>
   </tile>
  </tileset>
- <layer name="terrain" width="40" height="40">
+ <layer id="1" name="terrain" width="40" height="40">
   <data encoding="csv">
 487,487,492,458,242,311,626,185,186,187,626,626,626,626,626,156,124,124,124,67,166,66,67,135,91,157,166,66,166,168,157,167,169,67,135,159,132,157,168,91,
 487,487,487,492,458,459,626,185,186,187,626,626,626,626,626,88,124,124,124,99,193,193,193,193,193,191,191,193,191,193,193,193,100,101,64,166,67,132,167,91,
@@ -5493,7 +5493,7 @@
 626,626,626,626,626,626,626,626,626,626,626,626,626,626,626,626,626,626,626,626,626,626,479,483,378,73,485,174,186,242,390,378,186,458,118,481,480,77,481,492
 </data>
  </layer>
- <layer name="bridge" width="40" height="40">
+ <layer id="2" name="bridge" width="40" height="40">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -5537,7 +5537,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="deco" width="40" height="40">
+ <layer id="3" name="deco" width="40" height="40">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,543,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -5581,7 +5581,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,492,0,0,0,0,483,483,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup name="monsters">
+ <objectgroup id="4" name="monsters">
   <object id="1" name="treant" x="499.279" y="174.332">
    <point/>
   </object>
@@ -5592,7 +5592,7 @@
    <point/>
   </object>
  </objectgroup>
- <objectgroup name="npcs">
+ <objectgroup id="5" name="npcs">
   <object id="6" name="npc" x="58.2323" y="146.777">
    <properties>
     <property name="message" value="Hello! Watch out for the dangerous treants!"/>
@@ -5606,7 +5606,7 @@
    <point/>
   </object>
  </objectgroup>
- <objectgroup name="zones">
+ <objectgroup id="6" name="zones">
   <object id="11" x="355.775" y="408.424" width="13.5609" height="44.6713">
    <properties>
     <property name="comesBackFrom" value="right"/>
