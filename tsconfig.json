@@ -2,6 +2,7 @@
   "compilerOptions": {
     "outDir": "./built",
     "allowJs": true,
+    "moduleResolution": "node",
     "target": "ES6",
     "lib": ["es2017", "dom"],
     "noUnusedParameters": true,
@@ -15,7 +16,7 @@
       "require": true
     }
   },
-  "files": ["typings/typings.d.ts", "typings/phaser.d.ts"],
+  "files": ["typings/typings.d.ts"],
   "include": ["./src/**/*"],
   "exclude": ["node_modules", "bin"]
 }
